@@ -20,8 +20,8 @@ function App() {
   }
   const createPokemon = async() => {
     try {
-      //let image_link = "../src/images/" + name + ".png"
-      let image_link = "https://upload.wikimedia.org/wikipedia/commons/6/6a/PNG_Test.png"
+      let image_link = "../src/images/" + name + ".png"
+      //let image_link = "https://upload.wikimedia.org/wikipedia/commons/6/6a/PNG_Test.png"
       console.log(image_link)
       await axios.post("/api/pokemon", {name: name.charAt(0).toUpperCase() + name.slice(1), nickname: nickname, ability:ability, image:image_link});
     } catch(error) {
