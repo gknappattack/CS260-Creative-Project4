@@ -118,7 +118,7 @@ function App() {
       
       ))}
     </div>
-    <footer> View the full code on <a href="https://github.com/BYU-CS-260/lab2-javascript-gknappattack">my Github</a> </footer>
+    <footer> View the full code on <a href="https://github.com/gknappattack/CS260-Creative-Project4">my Github</a> </footer>
     </div>
   );
 }
